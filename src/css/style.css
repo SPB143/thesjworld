@@ -1,0 +1,30 @@
+body,html{
+    font-family: 'Poppins', ;
+}
+.sj-h1-s{
+    font-size:8rem;
+    color: #edd715;
+    line-height:3rem;
+    font-weight:700;
+    font-family: 'Poppins', ;
+}
+.sj-h1-l{
+    font-size:8rem;
+    color: #edd715;
+    line-height:3rem;
+    font-weight:700;
+    font-family: 'Poppins', ;
+}
+
+.coming-soon{
+    color: white;
+	animation-name: fade;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+    0%   {opacity:0}
+    50%  {opacity:1}
+    100% {opacity:0}
+  }
